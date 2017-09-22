@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+
+body {
+  font-family: 'Open Sans';
+}
+
+.jumbotron {
+  color: white;
+/*  background: url('../img/jumbo-bg.jpg');*/
+
+  background: url('../img/surface-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.black-nav {
+  color: #333;
+}
+
+.bg-info {
+  color: white;
+}
+
+.navbar .navbar-brand {
+  color: rgba(2555,255,255, .85);
+  font-size: 1rem;
+  padding-top: .45rem;
+}
+
+h1,
+.lead {
+ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1); !important;
+} 
+
+.navbar {
+  opacity: .9;
+}
+
+.btn,
+.active {
+  transition: .4s;
+}
+
+.selected {
+  color:  white !important;
+}
+
+.card-img-top {
+  height: 250px;
+  width: 100%;
+}
+
+.card {
+    -webkit-box-shadow: 0 8px 20px -6px rgba(0,0,0,.5);
+     -moz-box-shadow: 0 8px 10px -6px rgba(0,0,0,.5);
+          box-shadow: 0 8px 10px -6px rgba(0,0,0,.5);
+}
+
+/* Borough Bg */
+
+.bronx-bg {
+  background-image: url('../img/bronx.jpg');
+  background-color: rgba(0,0,0, 1) ;
+/*  background-blend-mode: multiply;*/
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.manhattan-bg {
+  background-image: url('../img/manhattan.jpg');
+  background-color: rgba(0,0,0, 1) ;
+/*  background-blend-mode: multiply;*/
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.brooklyn-bg {
+  background-image: url('../img/brooklyn.jpg');
+  background-color: rgba(0,0,0, ) ;
+/*  background-blend-mode: multiply;*/
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.queens-bg {
+  background-image: url('../img/queens.jpg');
+  background-color: rgba(0,0,0, ) ;
+/*  background-blend-mode: multiply;*/
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.space-top {
+  padding-top: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
